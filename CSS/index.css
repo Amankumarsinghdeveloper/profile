@@ -1,0 +1,25 @@
+* {
+    background-color: black;
+    color: #4bffa5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#div1 {
+    width: 50%;
+    float: left;
+}
+
+#div2 {
+    width: 50%;
+    float: right;
+}
+
+#Profilepic {
+    width: 20%;
+    height: 20%;
+    border-radius: 5px;
+    border-top: 3px solid #4bffa5;
+    border-bottom: 3px solid #4bffa5;
+    border-left: 3px solid #4bffa5;
+    border-right: 3px solid #4bffa5;
+}
