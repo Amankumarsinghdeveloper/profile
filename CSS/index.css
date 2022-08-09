@@ -14,9 +14,67 @@
     float: right;
 }
 
-#Profilepic {
-    width: 20%;
-    height: 20%;
+.socialpic {
+    text-decoration: none !important;
+    outline: none;
+    border:0px !important;
+    margin: 2%;
+}
+
+.Profilepic {
+    width: 70%;
     border-radius: 5px;
     border: 3px solid #4bffa5;
 }
+
+.profilheader {
+    margin: 2%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 94%;
+    border: 2px solid #4bffa5;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 10px #4bffa5;
+    animation: down-bump 0.4s ease;
+    
+}
+
+.absocial {
+    text-decoration: none !important;
+    margin: 1%;
+    color: #4bffa5;
+}
+
+.ablink {
+    margin-top: 5%;
+}
+
+.skillpic {
+    margin: 7px;
+    margin-bottom: 30px;
+}
+
+.aboutdata {
+    padding-left: 5px;
+    padding-right: 40px;
+}
+
+@keyframes up-bump {
+    0% { padding-top: 2em; }
+    50% { padding-top: 1.5em; }
+    100% { padding-top: 2em; }
+  }
+  @keyframes down-bump {
+    0% { padding-top: 2em; }
+    10% { padding-top: 2.1em; }
+    20% { padding-top: 2.2em; }
+    30% { padding-top: 2.3em; }
+    40% { padding-top: 2.4em; }
+    50% { padding-top: 2.5em; }
+    60% { padding-top: 2.4em; }
+    70% { padding-top: 2.3em; }
+    80% { padding-top: 2.2em; }
+    90% { padding-top: 2.1em; }
+    100% { padding-top: 2em; }
+  }
