@@ -17,7 +17,7 @@
 .socialpic {
     text-decoration: none !important;
     outline: none;
-    border:0px !important;
+    border: 0px !important;
     margin: 2%;
 }
 
@@ -37,7 +37,7 @@
     overflow: hidden;
     box-shadow: 5px 10px #4bffa5;
     animation: down-bump 0.4s ease;
-    
+
 }
 
 .absocial {
@@ -48,6 +48,28 @@
 
 .ablink {
     margin-top: 5%;
+    width: 40%;
+    float: left;
+}
+
+#profile-contact {
+    width: 20%;
+    float: right;
+    margin-top: 5%;
+}
+
+#profile-contact:hover {
+    transform: scale(1.1);
+}
+
+#profile-contact button {
+    border: 1px solid #4bffa5;
+    font-size: x-large;
+    border-radius: 5px;
+}
+
+#profile-contact button:hover {
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .skillpic {
@@ -55,26 +77,177 @@
     margin-bottom: 30px;
 }
 
+.skillpic:hover {
+    transform: scale(1.1);
+}
+
 .aboutdata {
     padding-left: 5px;
     padding-right: 40px;
 }
 
+.projectbox {
+    width: 20%;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    margin: 2%;
+    border: 3px solid #4bffa5;
+    border-radius: 5px;
+}
+
+.projectbox:hover {
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    transform: scale(1.1);
+}
+
+.projectboximg {
+    height: 150px;
+    width: 100%;
+}
+
+.skill {
+    width: 100%;
+    display: inline-block;
+}
+
+.projectbox a {
+    text-decoration: none;
+    font-size: medium;
+}
+
+.profilepic-name {
+    float: left;
+    width: 30%;
+    margin: 3%;
+    height: 100%;
+    padding: 1px;
+}
+
+/* Centered text */
+.Projectboc-pic-text {
+    margin-top: -25px;
+    color: black;
+    font-style: oblique;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width:750px) {
+    .profilepic-name {
+        float: none;
+        width: 50%;
+        margin: 3%;
+        height: 100%;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .ablink {
+        visibility: hidden;
+    }
+
+    #profile-contact {
+        margin: auto;
+        float: none;
+    }
+
+    .projectbox {
+        width: 41%;
+        height: 300px;
+        border: 2px solid #4bffa5;
+    }
+
+    .projectboximg {
+        height: 120px;
+        width: 100%;
+    }
+
+    .projectbox-topic h3 {
+        font-size: medium;
+    }
+
+    .Projectboc-pic-text {
+        font-size: small;
+    }
+
+    .skillpic {
+        margin: 7px;
+        margin-bottom: 30px;
+        width:20px;
+    }
+
+    #div1 h3 {
+        font-size: small;
+    }
+
+    #div2 h3 {
+        font-size: small;
+    }
+
+    
+}
+
+
+
 @keyframes up-bump {
-    0% { padding-top: 2em; }
-    50% { padding-top: 1.5em; }
-    100% { padding-top: 2em; }
-  }
-  @keyframes down-bump {
-    0% { padding-top: 2em; }
-    10% { padding-top: 2.1em; }
-    20% { padding-top: 2.2em; }
-    30% { padding-top: 2.3em; }
-    40% { padding-top: 2.4em; }
-    50% { padding-top: 2.5em; }
-    60% { padding-top: 2.4em; }
-    70% { padding-top: 2.3em; }
-    80% { padding-top: 2.2em; }
-    90% { padding-top: 2.1em; }
-    100% { padding-top: 2em; }
-  }
+    0% {
+        padding-top: 2em;
+    }
+
+    50% {
+        padding-top: 1.5em;
+    }
+
+    100% {
+        padding-top: 2em;
+    }
+}
+
+@keyframes down-bump {
+    0% {
+        padding-top: 2em;
+    }
+
+    10% {
+        padding-top: 2.1em;
+    }
+
+    20% {
+        padding-top: 2.2em;
+    }
+
+    30% {
+        padding-top: 2.3em;
+    }
+
+    40% {
+        padding-top: 2.4em;
+    }
+
+    50% {
+        padding-top: 2.5em;
+    }
+
+    60% {
+        padding-top: 2.4em;
+    }
+
+    70% {
+        padding-top: 2.3em;
+    }
+
+    80% {
+        padding-top: 2.2em;
+    }
+
+    90% {
+        padding-top: 2.1em;
+    }
+
+    100% {
+        padding-top: 2em;
+    }
+}
